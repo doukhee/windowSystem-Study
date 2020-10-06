@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\chapter02">
+      <UniqueIdentifier>{994db832-6b62-434e-9b20-d56bf61d2809}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\chapter02\03.MBCS_UNICODE">
+      <UniqueIdentifier>{8f171652-1d0a-4ce7-adcd-b3ef4fe12fc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\chapter02\04.WBCS01">
+      <UniqueIdentifier>{01ec7eb5-8bbe-414f-8838-a16b1cc4a916}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\chapter02\01.MBCS01">
+      <UniqueIdentifier>{bf64ae02-535b-4008-be3a-c0a18eb14d55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\chapter02\02.MBCS01">
+      <UniqueIdentifier>{79906d0a-3c39-409a-8176-172f3e8b9368}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\chapter02\05.WBCS02">
+      <UniqueIdentifier>{e2c7f2f5-e9d2-49af-87e8-58d310a1576a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\chapter02\06.WBCS03">
+      <UniqueIdentifier>{fa994422-a750-47d5-ad0f-37d8cf1f9ae1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\chapter02\07.WBCS04">
+      <UniqueIdentifier>{1ef7e1a3-162c-4f85-9c14-ce9fd7e8294f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="chapter02\02.MBCS2\mbcs2.c">
+      <Filter>소스 파일\chapter02\02.MBCS01</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter02\01.MBCS1\mbcs1.cpp">
+      <Filter>소스 파일\chapter02\01.MBCS01</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter02\03.MBCS_Unicode\mbcs_unicode.c">
+      <Filter>소스 파일\chapter02\03.MBCS_UNICODE</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter02\04.WBCS1\wbcs1.c">
+      <Filter>소스 파일\chapter02\04.WBCS01</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter02\05.WBCS2\wbcs2.c">
+      <Filter>소스 파일\chapter02\05.WBCS02</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter02\06.WBCS3\wbcs3.c">
+      <Filter>소스 파일\chapter02\06.WBCS03</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter02\07.WBCS4\wbcs4.c">
+      <Filter>소스 파일\chapter02\07.WBCS04</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
