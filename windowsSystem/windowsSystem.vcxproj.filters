@@ -37,6 +37,12 @@
     <Filter Include="소스 파일\chapter02\07.WBCS04">
       <UniqueIdentifier>{1ef7e1a3-162c-4f85-9c14-ce9fd7e8294f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\chpater05">
+      <UniqueIdentifier>{54cea3d6-c8f1-4119-8bdb-cea6e2f32421}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\chpater05\01.AdderProcess">
+      <UniqueIdentifier>{0dd40e1a-1568-4f41-94cc-7d31b6a06ea8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="chapter02\02.MBCS2\mbcs2.c">
@@ -59,6 +65,12 @@
     </ClCompile>
     <ClCompile Include="chapter02\07.WBCS4\wbcs4.c">
       <Filter>소스 파일\chapter02\07.WBCS04</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter05\01.AdderProcess\AdderProcess.c">
+      <Filter>소스 파일\chpater05\01.AdderProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter05\01.AdderProcess\CreateProcess.c">
+      <Filter>소스 파일\chpater05\01.AdderProcess</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
