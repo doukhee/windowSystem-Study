@@ -43,6 +43,18 @@
     <Filter Include="소스 파일\chpater05\01.AdderProcess">
       <UniqueIdentifier>{0dd40e1a-1568-4f41-94cc-7d31b6a06ea8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\chpater05\02.GetSystemDirectory">
+      <UniqueIdentifier>{3370694b-d9b0-4437-ac52-ac8c48f9cfb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\chpater05\03.Calculator">
+      <UniqueIdentifier>{634885f0-239a-451c-8ede-a4c540208e7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\chpater05\04.prompt">
+      <UniqueIdentifier>{681d238b-6c2f-41ab-9f1b-ebf4035d2edb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\chapter02\08.prompt">
+      <UniqueIdentifier>{d2295d68-4a2e-4bb2-87c8-e8f620e0f85c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="chapter02\02.MBCS2\mbcs2.c">
@@ -71,6 +83,18 @@
     </ClCompile>
     <ClCompile Include="chapter05\01.AdderProcess\CreateProcess.c">
       <Filter>소스 파일\chpater05\01.AdderProcess</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter05\02.GetSystemDirectory\GetSystemDirectory.c">
+      <Filter>소스 파일\chpater05\02.GetSystemDirectory</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter05\03.Calculator\calculator.cpp">
+      <Filter>소스 파일\chpater05\03.Calculator</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter05\04.prompt\prompt.c">
+      <Filter>소스 파일\chpater05\04.prompt</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter02\08.prompt\prompt.c">
+      <Filter>소스 파일\chapter02\08.prompt</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
