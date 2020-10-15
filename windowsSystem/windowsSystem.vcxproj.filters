@@ -55,6 +55,12 @@
     <Filter Include="소스 파일\chapter02\08.prompt">
       <UniqueIdentifier>{d2295d68-4a2e-4bb2-87c8-e8f620e0f85c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\chapter06">
+      <UniqueIdentifier>{5d44bb2b-a839-4c88-9754-1f31bd222f14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\chapter06\01.Operation1">
+      <UniqueIdentifier>{23f258f3-277c-4911-8eb3-55363ae37d48}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="chapter02\02.MBCS2\mbcs2.c">
@@ -95,6 +101,12 @@
     </ClCompile>
     <ClCompile Include="chapter02\08.prompt\prompt.c">
       <Filter>소스 파일\chapter02\08.prompt</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter06\1.Operation1\Operation1.c">
+      <Filter>소스 파일\chapter06\01.Operation1</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter06\1.Operation1\Opertaion2.c">
+      <Filter>소스 파일\chapter06\01.Operation1</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
