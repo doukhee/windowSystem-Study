@@ -61,6 +61,15 @@
     <Filter Include="소스 파일\chapter06\01.Operation1">
       <UniqueIdentifier>{23f258f3-277c-4911-8eb3-55363ae37d48}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\chapter06\02.KerObjShare">
+      <UniqueIdentifier>{e21564d3-a29a-467a-af05-591ff0d6117c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\chapter06\03.KernelObjProb1">
+      <UniqueIdentifier>{314f49f6-6777-4c7d-8cee-91d02e5aafaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\chapter06\04.KernelObjProb2">
+      <UniqueIdentifier>{8420ab17-829e-4db0-ae2a-37c27f5fe0a3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="chapter02\02.MBCS2\mbcs2.c">
@@ -107,6 +116,15 @@
     </ClCompile>
     <ClCompile Include="chapter06\1.Operation1\Opertaion2.c">
       <Filter>소스 파일\chapter06\01.Operation1</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter06\02.KerObjShare\KerObjShare.cpp">
+      <Filter>소스 파일\chapter06\02.KerObjShare</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter06\03.KernelObjProb1\KernelObjProb1.cpp">
+      <Filter>소스 파일\chapter06\03.KernelObjProb1</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter06\04.KernelObjProb2\KernelObjProb2.cpp">
+      <Filter>소스 파일\chapter06\04.KernelObjProb2</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
