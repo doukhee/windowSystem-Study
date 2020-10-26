@@ -37,21 +37,6 @@
     <Filter Include="소스 파일\chapter02\07.WBCS04">
       <UniqueIdentifier>{1ef7e1a3-162c-4f85-9c14-ce9fd7e8294f}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\chpater05">
-      <UniqueIdentifier>{54cea3d6-c8f1-4119-8bdb-cea6e2f32421}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="소스 파일\chpater05\01.AdderProcess">
-      <UniqueIdentifier>{0dd40e1a-1568-4f41-94cc-7d31b6a06ea8}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="소스 파일\chpater05\02.GetSystemDirectory">
-      <UniqueIdentifier>{3370694b-d9b0-4437-ac52-ac8c48f9cfb4}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="소스 파일\chpater05\03.Calculator">
-      <UniqueIdentifier>{634885f0-239a-451c-8ede-a4c540208e7c}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="소스 파일\chpater05\04.prompt">
-      <UniqueIdentifier>{681d238b-6c2f-41ab-9f1b-ebf4035d2edb}</UniqueIdentifier>
-    </Filter>
     <Filter Include="소스 파일\chapter02\08.prompt">
       <UniqueIdentifier>{d2295d68-4a2e-4bb2-87c8-e8f620e0f85c}</UniqueIdentifier>
     </Filter>
@@ -69,6 +54,30 @@
     </Filter>
     <Filter Include="소스 파일\chapter06\04.KernelObjProb2">
       <UniqueIdentifier>{8420ab17-829e-4db0-ae2a-37c27f5fe0a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\chapter06\05.OperationStateParent">
+      <UniqueIdentifier>{a8440e52-48d0-4b08-aff8-62ca43958a62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\chapter05">
+      <UniqueIdentifier>{54cea3d6-c8f1-4119-8bdb-cea6e2f32421}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\chapter05\01.AdderProcess">
+      <UniqueIdentifier>{0dd40e1a-1568-4f41-94cc-7d31b6a06ea8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\chapter05\02.GetSystemDirectory">
+      <UniqueIdentifier>{3370694b-d9b0-4437-ac52-ac8c48f9cfb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\chapter05\03.Calculator">
+      <UniqueIdentifier>{634885f0-239a-451c-8ede-a4c540208e7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\chapter05\04.prompt">
+      <UniqueIdentifier>{681d238b-6c2f-41ab-9f1b-ebf4035d2edb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\chapter06\06.Calculator2">
+      <UniqueIdentifier>{c6e07cb0-30ba-4837-a4da-03a831534588}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\chapter06\07.CommandPrompt">
+      <UniqueIdentifier>{5a10de5e-f320-4f62-a747-4c4acb88c028}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -94,19 +103,19 @@
       <Filter>소스 파일\chapter02\07.WBCS04</Filter>
     </ClCompile>
     <ClCompile Include="chapter05\01.AdderProcess\AdderProcess.c">
-      <Filter>소스 파일\chpater05\01.AdderProcess</Filter>
+      <Filter>소스 파일\chapter05\01.AdderProcess</Filter>
     </ClCompile>
     <ClCompile Include="chapter05\01.AdderProcess\CreateProcess.c">
-      <Filter>소스 파일\chpater05\01.AdderProcess</Filter>
+      <Filter>소스 파일\chapter05\01.AdderProcess</Filter>
     </ClCompile>
     <ClCompile Include="chapter05\02.GetSystemDirectory\GetSystemDirectory.c">
-      <Filter>소스 파일\chpater05\02.GetSystemDirectory</Filter>
+      <Filter>소스 파일\chapter05\02.GetSystemDirectory</Filter>
     </ClCompile>
     <ClCompile Include="chapter05\03.Calculator\calculator.cpp">
-      <Filter>소스 파일\chpater05\03.Calculator</Filter>
+      <Filter>소스 파일\chapter05\03.Calculator</Filter>
     </ClCompile>
     <ClCompile Include="chapter05\04.prompt\prompt.c">
-      <Filter>소스 파일\chpater05\04.prompt</Filter>
+      <Filter>소스 파일\chapter05\04.prompt</Filter>
     </ClCompile>
     <ClCompile Include="chapter02\08.prompt\prompt.c">
       <Filter>소스 파일\chapter02\08.prompt</Filter>
@@ -125,6 +134,18 @@
     </ClCompile>
     <ClCompile Include="chapter06\04.KernelObjProb2\KernelObjProb2.cpp">
       <Filter>소스 파일\chapter06\04.KernelObjProb2</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter06\05.OperationStateParent\OperationStateParent.cpp">
+      <Filter>소스 파일\chapter06\05.OperationStateParent</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter06\05.OperationStateParent\OperationStateChild.cpp">
+      <Filter>소스 파일\chapter06\05.OperationStateParent</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter06\06.Calculator2\Calculator2.cpp">
+      <Filter>소스 파일\chapter06\06.Calculator2</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter06\07.CommandPrompt\CommandPrompt.cpp">
+      <Filter>소스 파일\chapter06\07.CommandPrompt</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
