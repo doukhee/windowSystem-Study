@@ -79,6 +79,15 @@
     <Filter Include="소스 파일\chapter06\07.CommandPrompt">
       <UniqueIdentifier>{5a10de5e-f320-4f62-a747-4c4acb88c028}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\chapter07">
+      <UniqueIdentifier>{808ef64d-7fc5-4529-8cf4-d142a97899e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\chapter07\01.MailReceiver">
+      <UniqueIdentifier>{380e190b-9939-47e2-b6eb-fc53efd2face}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\chapter07\02.MailSender">
+      <UniqueIdentifier>{cf0b24ba-6ee8-45da-b623-576db73d5014}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="chapter02\02.MBCS2\mbcs2.c">
@@ -146,6 +155,12 @@
     </ClCompile>
     <ClCompile Include="chapter06\07.CommandPrompt\CommandPrompt.cpp">
       <Filter>소스 파일\chapter06\07.CommandPrompt</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter07\01.MailReceiver\MainReceiver.cpp">
+      <Filter>소스 파일\chapter07\01.MailReceiver</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter07\02.MailSender\MailSender.cpp">
+      <Filter>소스 파일\chapter07\02.MailSender</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
