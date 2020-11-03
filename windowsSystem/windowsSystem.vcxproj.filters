@@ -94,6 +94,12 @@
     <Filter Include="소스 파일\chapter07\06.AdderManager">
       <UniqueIdentifier>{94418d9e-b5fb-4722-8e9b-b2afc4c1fa4e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\chapter08">
+      <UniqueIdentifier>{a3a1c0cc-5c0f-4fba-938d-0c15784c5a42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\chapter08\01.MailSender">
+      <UniqueIdentifier>{363a740b-23ac-442e-8a61-96420b5a1602}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="chapter02\02.MBCS2\mbcs2.c">
@@ -176,6 +182,15 @@
     </ClCompile>
     <ClCompile Include="chapter07\06.AdderManager\AdderManager.cpp">
       <Filter>소스 파일\chapter07\06.AdderManager</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter08\01.MailSender02\MailReceiver.cpp">
+      <Filter>소스 파일\chapter08\01.MailSender</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter08\01.MailSender02\MailSender.cpp">
+      <Filter>소스 파일\chapter08\01.MailSender</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter08\01.MailSender02\MailSender2_2.cpp">
+      <Filter>소스 파일\chapter08\01.MailSender</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
