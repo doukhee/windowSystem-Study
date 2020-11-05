@@ -100,6 +100,9 @@
     <Filter Include="소스 파일\chapter08\01.MailSender">
       <UniqueIdentifier>{363a740b-23ac-442e-8a61-96420b5a1602}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\chapter08\02.DuplicateHandle">
+      <UniqueIdentifier>{6669b36e-c466-4ca2-bb9f-1997fdd30c84}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="chapter02\02.MBCS2\mbcs2.c">
@@ -191,6 +194,12 @@
     </ClCompile>
     <ClCompile Include="chapter08\01.MailSender02\MailSender2_2.cpp">
       <Filter>소스 파일\chapter08\01.MailSender</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter08\02.DuplicateHandle\DuplicateHandle.cpp">
+      <Filter>소스 파일\chapter08\02.DuplicateHandle</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter08\02.DuplicateHandle\DuplicateHandleChildProcess.cpp">
+      <Filter>소스 파일\chapter08\02.DuplicateHandle</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
