@@ -103,6 +103,15 @@
     <Filter Include="소스 파일\chapter08\02.DuplicateHandle">
       <UniqueIdentifier>{6669b36e-c466-4ca2-bb9f-1997fdd30c84}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\chapter08\03.anonymous_pipe">
+      <UniqueIdentifier>{d842bc3e-6cee-4c14-ba22-2bf14cbfd738}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\chapter08\04.namedpipe">
+      <UniqueIdentifier>{fd859532-2bd7-47b0-869a-bfdc86881ad8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\chapter08\05.EnvParent">
+      <UniqueIdentifier>{1b7704be-2562-4b17-83c0-3e5d964a7d83}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="chapter02\02.MBCS2\mbcs2.c">
@@ -200,6 +209,21 @@
     </ClCompile>
     <ClCompile Include="chapter08\02.DuplicateHandle\DuplicateHandleChildProcess.cpp">
       <Filter>소스 파일\chapter08\02.DuplicateHandle</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter08\03.anonymous_pipe\anonymous_pip.cpp">
+      <Filter>소스 파일\chapter08\03.anonymous_pipe</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter08\04.namedpipe_server\namedpipe_server.cpp">
+      <Filter>소스 파일\chapter08\04.namedpipe</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter08\04.namedpipe_server\namedpipe_client.cpp">
+      <Filter>소스 파일\chapter08\04.namedpipe</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter08\05.EnvParent\EnvParent.cpp">
+      <Filter>소스 파일\chapter08\05.EnvParent</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter08\05.EnvParent\EnvChild.cpp">
+      <Filter>소스 파일\chapter08\05.EnvParent</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
