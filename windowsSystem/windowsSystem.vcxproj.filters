@@ -112,6 +112,12 @@
     <Filter Include="소스 파일\chapter08\05.EnvParent">
       <UniqueIdentifier>{1b7704be-2562-4b17-83c0-3e5d964a7d83}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\chapter08\06.ListProcessInfo">
+      <UniqueIdentifier>{69b90cc3-bb6d-421e-af65-ef5614f89038}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\chapter08\07.commandPrmpt_Four">
+      <UniqueIdentifier>{343c3dc3-f955-4ca6-9872-6d2dd1c98123}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="chapter02\02.MBCS2\mbcs2.c">
@@ -224,6 +230,12 @@
     </ClCompile>
     <ClCompile Include="chapter08\05.EnvParent\EnvChild.cpp">
       <Filter>소스 파일\chapter08\05.EnvParent</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter08\06.ListProcessInfo\ListProcessInfo.cpp">
+      <Filter>소스 파일\chapter08\06.ListProcessInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="chapter08\07.CommandPrmpt_Four\CommandPrmpt_Four.cpp">
+      <Filter>소스 파일\chapter08\07.commandPrmpt_Four</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
